@@ -1,0 +1,100 @@
+.starstruck-wrapper {
+background:#FEFAF9;
+border:1px solid #e5e5e5;
+box-shadow:2px 1px 0px #e5e5e5;
+font-family:'poppins', sans-serif;
+font-size:14px;
+font-weight:400;
+line-height:22px;
+margin:30px auto;
+overflow:hidden;
+position:relative;
+text-align:justify;
+width:400px;
+z-index: 1; }
+
+.starstruck-body {
+  padding:30px 50px 50px 50px;
+  text-align:justify;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+
+.starstruck-body a {
+  text-color: rgba(var(--main)); 
+  text-decoration: underline rgba(var(--accent));
+}
+
+.starstruck-body b {
+  font-weight: 900;
+  color: rgba(var(--main));
+ }
+
+.starstruck-body i {
+   opacity: 0.7;
+}
+
+.starstruck-body u {
+  text-decoration: underline 2px rgba(var(--accent));
+  font-weight:400;
+ }
+
+.starstruck-date {
+  padding:50px 50px 0px 50px;
+  text-align: center;
+  z-index:2;
+}
+
+.starstruck-date date {
+  font-size:14px;
+  font-weight: 600;
+  position: relative;
+  text-transform:uppercase;
+  color: rgba(var(--main));
+  padding: 5px;
+}
+
+.starstruck-icon {
+  position: relative;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  font-size: 50px;
+  color: rgba(var(--accent));
+  z-index: 1;
+}
+
+.starstruck-date b {
+  font-weight:700;
+  margin-right:2px;
+ }
+
+.starstruck-bottom {
+font-size: 14px;
+text-transform: uppercase;
+background-color: rgba(var(--main), .4); 
+width: 400px; 
+height: 40px;
+margin-bottom: -1px; 
+white-space: pre-wrap;
+z-index: 3;
+}
+
+.starstruck-bottom tag {
+font-size: 14px;
+position: relative;
+display: inline-block;
+text-transform: uppercase;
+text-color: rgba(var(--main)); 
+padding: 10px;
+margin: 0px 0px 0px 40px;
+z-index: 4;
+}
+
+.starstruck-bottom a {
+  color: rgba(var(--main));
+  text-decoration: underline 2px var(--accent);
+}
+
+/* colors and characters */
+#el {--main: 22, 149, 234; --accent: 165, 142, 238;}
